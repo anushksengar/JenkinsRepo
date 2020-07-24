@@ -1,0 +1,30 @@
+Install Java on Ubuntu Machine
+
+Step 1: sudo apt update #for update the machine
+Step 2: sudo apt install default-jdk #for install the default-jdk
+Step 3: java -version #to check the java version on machine
+
+
+Install JDK on Ubuntu Machine
+sudo apt update
+sudo apt install openjdk-8-jdk
+
+Install Jenkins on Ubuntu Machine
+wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+
+sudo sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+
+sudo apt-get update
+
+sudo apt-get install jenkins
+
+if got any error during update
+
+sudo apt-get install dirmngr
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 9B7D32F2D50582E6
+
+
+Admin Password: 86de3d3390e5418f91c2ad1757341c18
+
+
+
