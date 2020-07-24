@@ -24,7 +24,4 @@ sudo apt-get install dirmngr
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 9B7D32F2D50582E6
 
 
-Admin Password: 86de3d3390e5418f91c2ad1757341c18
-
-
 
